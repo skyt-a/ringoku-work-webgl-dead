@@ -1,9 +1,5 @@
 import { NextPage } from "next";
-import Hello from "~/components/Hello";
+import Sky from "~/components/Sky";
 
-const page: NextPage = () => (
-  <h1>
-    <Hello />
-  </h1>
-);
+const page: NextPage = () => <Sky />;
 export default page;
